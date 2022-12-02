@@ -33,7 +33,7 @@ if __name__ == '__main__':
     system('cls')
     player = Player()
     game = Game(player)
-    #intro()
+    intro()
     output_text(current_map(player), 0.005)
 
     while 'the player has not opted to quit': # I've said this elsewhere, but I love Truthiness
